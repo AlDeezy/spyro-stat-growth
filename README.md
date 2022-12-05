@@ -5,7 +5,9 @@ Currently, the jump height scales with the number of gems completed. You start w
 Good luck!
 
 To compile it, place your legally acquired spyro.bin into build/
+
 Then, open a terminal and run mods/stat-growth/MOD.BAT
+
 Compile, then Build Iso
 
 Alternatively, you can use the xdelta patch in the releases panel to the right ->
