@@ -1,2 +1,5 @@
 ignore_this.spyro.map
+Makefile
 notes.txt
+offset.txt
+overlay.ld
