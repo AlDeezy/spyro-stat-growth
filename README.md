@@ -4,8 +4,7 @@ Currently, the jump height scales with the number of gems completed. You start w
 
 Good luck!
 
-
-
+&nbsp;
 
 To compile it, place your legally acquired spyro.bin into build/
 
