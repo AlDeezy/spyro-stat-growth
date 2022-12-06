@@ -1,8 +1,14 @@
 can_fly = 0x80078CA4;
+charge_air_angle_rate = 0x8004723c;
+charge_jump_speed = 0x80047138;
+charge_jump_impulse = 0x800424ac;
+charge_speed_value = 0x80044fe0;
 current_button = 0x80077378;
+egg_total = 0x80075810;
 gems_level = 0x800756C8;
 gems_total = 0x80075860;
 held_button = 0x80075c88;
+jump_charge_impulse = 0x80041e4c;
 jump_impulse = 0x8003ee20;
 sparx_immortal = 0x800756a0;
 sparx_level = 0x80078bbc;

@@ -1,31 +1,9 @@
-#include <common.h>
+#include "common.h"
 
-// struct CurrentButton {
-//   char l2;
-//   char r2;
-//   char l1;
-//   char r1;
-//   char tri;
-//   char cir;
-//   char x;
-//   char sqr;
-//   char select;
-//   char l3;
-//   char r3;
-//   char start;
-//   char up;
-//   char right;
-//   char down;
-//   char left;
-// };
-
-// struct CurrentButton button;
-
-// void Buttons() {
-//   char *ptr_button = (char *)&button;
-//   for (char i = 0; i < 16; i++) {
-//     *(ptr_button + i) = (current_button >> i) % 2 + (held_button >> i) % 2;
-//   }
-// }
-
-void Do_Stuff() { jump_impulse = 1000 + gems_total / 2; }
+void Do_Stuff() {
+  charge_speed_value = 420 + gems_total / 35;               // 576
+  charge_jump_speed = 3840 + gems_total / 2;                // 7680
+  charge_jump_impulse = 2600 + (gems_total / 7);            // 3520
+  jump_impulse = 1000 + gems_total / 2;                     // 3520
+  jump_charge_impulse = 4048 + (4048 * gems_total / 14000); // 8064
+}
