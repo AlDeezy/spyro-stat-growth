@@ -10,8 +10,13 @@ gems_total = 0x80075860;
 held_button = 0x80075c88;
 jump_charge_impulse = 0x80041e4c;
 jump_impulse = 0x8003ee20;
+pad_inputs = 0x80077380;
+pad_impulse = 0x80077378;
 sparx_immortal = 0x800756a0;
 sparx_level = 0x80078bbc;
 spyro_x_pos = 0x80078a58;
 spyro_y_pos = 0x80078a5c;
 spyro_z_pos = 0x80078a60;
+
+DrawBox = 0x8001860c;
+DrawText = 0x800181ac;

@@ -3,3 +3,9 @@ Makefile
 notes.txt
 offset.txt
 overlay.ld
+*.zip
+
+mods/stat-growth/backup/*
+mods/stat-growth/debug/*
+mods/stat-growth/output/*
+mods/stat-growth/crash.log
