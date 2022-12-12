@@ -1,0 +1,69 @@
+BFD header file version (GNU Binutils) 2.38
+elf32-tradlittlemips
+ (header little endian, data little endian)
+  mips
+elf32-tradbigmips
+ (header big endian, data big endian)
+  mips
+ecoff-littlemips
+ (header little endian, data little endian)
+  mips
+ecoff-bigmips
+ (header big endian, data big endian)
+  mips
+elf32-ntradlittlemips
+ (header little endian, data little endian)
+  mips
+elf64-tradlittlemips
+ (header little endian, data little endian)
+  mips
+elf32-ntradbigmips
+ (header big endian, data big endian)
+  mips
+elf64-tradbigmips
+ (header big endian, data big endian)
+  mips
+elf64-little
+ (header little endian, data little endian)
+  mips
+elf64-big
+ (header big endian, data big endian)
+  mips
+elf32-little
+ (header little endian, data little endian)
+  mips
+elf32-big
+ (header big endian, data big endian)
+  mips
+srec
+ (header endianness unknown, data endianness unknown)
+  mips
+symbolsrec
+ (header endianness unknown, data endianness unknown)
+  mips
+verilog
+ (header endianness unknown, data endianness unknown)
+  mips
+tekhex
+ (header endianness unknown, data endianness unknown)
+  mips
+binary
+ (header endianness unknown, data endianness unknown)
+  mips
+ihex
+ (header endianness unknown, data endianness unknown)
+  mips
+plugin
+ (header little endian, data little endian)
+
+         elf32-tradlittlemips elf32-tradbigmips ecoff-littlemips ecoff-bigmips 
+    mips elf32-tradlittlemips elf32-tradbigmips ecoff-littlemips ecoff-bigmips
+
+         elf32-ntradlittlemips elf64-tradlittlemips elf32-ntradbigmips 
+    mips elf32-ntradlittlemips elf64-tradlittlemips elf32-ntradbigmips
+
+         elf64-tradbigmips elf64-little elf64-big elf32-little elf32-big srec 
+    mips elf64-tradbigmips elf64-little elf64-big elf32-little elf32-big srec
+
+         symbolsrec verilog tekhex binary ihex plugin 
+    mips symbolsrec verilog tekhex binary ihex ------
