@@ -1,16 +1,23 @@
 Mod for Spyro the Dragon 1998, using RedHot's amazing [psx-modding-toolchain](https://github.com/mateusfavarin/psx-modding-toolchain)
 
-Current progressive modifiers, both of which scale with gems collected:
-+ Jump Height
-+ Maximum Charge Speed
+Current progressive modifiers:
++ Jump Height (scales with GEMS)
++ Maximum Charge Speed (scales with GEMS)
++ Sparx Range (scales with EGGS)
 
-In addition, Charge Jumps and Jump Charges were nerfed to reduce their usefulness in the early game. Both scale with gems as well!
+In addition:
++ Charge Jumps nerfed in earlygame (scales with GEMS)
++ Jump-Charges nerfed in earlygame (scales with GEMS)
++ Sparx's Range is affected by his HP
+++ 100% at Gold Sparx
+++ 66% at Blue Sparx
+++ 33% at Green Sparx
 
 Good luck!
 
 &nbsp;
 
-To compile it, place your legally acquired spyro.bin into build/
+To compile, place your legally acquired spyro.bin into build/
 
 Then, open a terminal and run mods/stat-growth/MOD.BAT
 
