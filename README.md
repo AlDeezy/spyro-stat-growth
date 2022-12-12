@@ -9,9 +9,9 @@ In addition:
 + Charge Jumps nerfed in earlygame (scales with GEMS)
 + Jump-Charges nerfed in earlygame (scales with GEMS)
 + Sparx's Range is affected by his HP
-++ 100% at Gold Sparx
-++ 66% at Blue Sparx
-++ 33% at Green Sparx
+    + 100% at Gold Sparx
+    + 66% at Blue Sparx
+    + 33% at Green Sparx
 
 Good luck!
 
