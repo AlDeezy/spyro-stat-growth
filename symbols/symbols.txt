@@ -38,9 +38,9 @@ sparx_range_toa_spawn = 0x8007cba8;
 
 sparx_range_pk_ground = 0x80081a90;
 sparx_range_pk_spawn = 0x80081c3c;
-sparx_range_dc_ground = 0x80081ae2;
+sparx_range_dc_ground = 0x80081ae0;
 sparx_range_dc_spawn = 0x80081c8c;
-sparx_range_ct_ground = 0x80081b3e;
+sparx_range_ct_ground = 0x80081b3c;
 sparx_range_ct_spawn = 0x80081ce4;
 sparx_range_ic = 0x8007cf70;
 sparx_range_doc_ground = 0x8007cb64;
@@ -48,20 +48,23 @@ sparx_range_doc_spawn = 0x8007cf1c;
 
 sparx_range_mc = 0x800821bc;
 sparx_range_ar = 0x8007f9e4;
-sparx_range_hc = 0x8007f52a;
+sparx_range_hc = 0x8007f528;
 sparx_range_wp = 0x8007ff40;
 sparx_range_blo = 0x8007d3d8;
-sparx_range_bm = 0x8007fa2;
+
+sparx_range_bm = 0x8007fa50;
 sparx_range_tv = 0x8007da94;
 sparx_range_mb = 0x8007d0e4;
 sparx_range_tt = 0x8007fd0c;
-sparx_range_met = 0x80081566;
-sparx_range_dw = 0x80081822;
-sparx_range_dp = 0x8007ebc7;
+sparx_range_met = 0x80081564;
+
+sparx_range_dw = 0x80081820;
+sparx_range_dp = 0x8007ebc4;
 sparx_range_lc_ground = 0x8007db54;
 sparx_range_lc_spawn = 0x8007dd00;
-sparx_range_ht = 0x8007d177;
+sparx_range_ht = 0x8007d174;
 sparx_range_jac = 0x8007d940;
+
 sparx_range_gg_ground = 0x8007f1e0;
 sparx_range_gg_spawn = 0x8007f384;
 sparx_range_gc = 0x8007cfb4;
@@ -69,5 +72,6 @@ sparx_range_th_ground = 0x8007c948;
 sparx_range_th_spawn = 0x8007caf4;
 sparx_range_gna_ground = 0x8007c5d4;
 sparx_range_gna_spawn = 0x8007c77c;
+
 sparx_range_gl_ground = 0x8007c888;
 sparx_range_gl_spawn = 0x8007ca30;
