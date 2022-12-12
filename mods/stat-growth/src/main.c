@@ -30,16 +30,18 @@ void Do_Things() {
 
 void Do_Stuff() {
   if (last_gems_total != gems_coll || last_level_id != level_id ||
-      last_egg_count != egg_coll) {
-    sparx_range = Scale_To(1100, 5736, egg_coll, 13); // 1434
+      last_egg_count != eggs_coll) {
+    sparx_range = Scale_To(1100, 5736, eggs_coll, 13); // 1434
     Assign_Sparx_Range(level_id, sparx_range);
-    charge_speed_value = Scale_To(420, 690, gems_coll, 12000);   // 576
-    charge_jump_speed = Scale_To(3840, 7900, gems_coll, 6000);   // 7680
-    charge_jump_impulse = Scale_To(2600, 4000, gems_coll, 6000); // 3520
-    jump_impulse = Scale_To(1000, 5300, gems_coll, 10000);       // 3520
-    jump_charge_impulse = Scale_To(4032, 8064, gems_coll, 6000); // 8064
+    charge_speed_value = Scale_To(420, 690, gems_coll, 14000);
+    // Scale_To(410, 600, gems_coll, 14000) + dragons_coll;     // 576
+    charge_jump_speed = Scale_To(3840, 7800, gems_coll, 6000);   // 7680
+    charge_jump_impulse = Scale_To(2550, 3520, gems_coll, 7000); // 3520
+    jump_impulse = Scale_To(1000, 5400, gems_coll, 10000);
+    // Scale_To(1000, 4750, gems_coll, 10000) + eggs_coll * 50; // 3520
+    jump_charge_impulse = Scale_To(4032, 8064, gems_coll, 7000); // 8064
   }
   last_gems_total = gems_coll;
   last_level_id = level_id;
-  last_egg_count = egg_coll;
+  last_egg_count = eggs_coll;
 }
