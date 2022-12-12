@@ -51,6 +51,7 @@ extern short jump_charge_impulse;
 extern short jump_impulse;
 extern int level_id;
 extern int level_id_2;
+extern char level_load_state;
 extern char sparx_hp;
 extern int spyro_x_pos;
 extern int spyro_y_pos;

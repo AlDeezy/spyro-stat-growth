@@ -29,7 +29,7 @@ unsigned short *sparx_gem_ranges[] = {
 
     &sparx_range_gl_ground,  &sparx_range_gl_spawn};
 
-void Assign_Sparx_range(int lvl, unsigned short value) {
+void Assign_Sparx_Range(int lvl, unsigned short value) {
   switch (lvl) {
   case ARTISANS:
     *sparx_gem_ranges[0] = value;

@@ -13,6 +13,7 @@ jump_charge_impulse = 0x80041e4c;
 jump_impulse = 0x8003ee20;
 level_id = 0x800758b4;
 level_id_2 = 0x8007596c;
+level_load_state = 0x80075864;
 pad_inputs = 0x80077380;
 pad_impulse = 0x80077378;
 sparx_immortal = 0x800756a0;
