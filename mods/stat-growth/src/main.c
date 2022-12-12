@@ -21,7 +21,7 @@ int Scale_To(int initial, int final, int coll_curr, int coll_max) {
 
 // Very creativ naming, I know
 void Do_Things() {
-  if (last_sparx_hp != sparx_hp || level_load_state == 9) {
+  if ((last_sparx_hp != sparx_hp || level_load_state == 9) && level_id != 0) {
     sparx_range = sparx_range * sparx_hp / 3;
     Assign_Sparx_Range(level_id, sparx_range);
   }
