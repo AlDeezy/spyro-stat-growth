@@ -1,2 +1,2 @@
 .set noreorder
-j Do_Stuff
+j Do_Tick_Hook

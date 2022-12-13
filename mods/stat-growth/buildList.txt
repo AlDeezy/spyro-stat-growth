@@ -1,5 +1,4 @@
 american, header, 0x8000B0B8, 0x0, src/main.c, stat-growth.bin
-american, exe, 0x80033e38, 0x0, src/thingshook.s
-american, exe, 0x8003b9cc, 0x0, src/hook.s
-american, exe, 0x80012774, 0x0, output/srchooks.bin
-american, exe, 0x8002dff8, 0x0, output/srchooks.bin
+american, exe, 0x800144c0, 0x0, src/levelinithook.s
+american, exe, 0x80055954, 0x0, src/collecthook.s
+american, exe, 0x8001f150, 0x0, src/tickhook.s

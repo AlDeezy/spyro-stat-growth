@@ -45,6 +45,7 @@ extern short charge_speed_value;
 extern unsigned short current_button;
 extern int dragons_coll;
 extern int eggs_coll;
+extern int game_state;
 extern unsigned short gems_coll;
 extern unsigned short gem_level_totals[35];
 extern unsigned short held_button;

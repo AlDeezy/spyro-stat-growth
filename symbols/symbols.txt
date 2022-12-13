@@ -4,10 +4,15 @@ charge_jump_speed = 0x80047138;
 charge_jump_impulse = 0x800424ac;
 charge_speed_value = 0x80044fe0;
 current_button = 0x80077378;
+
 dragons_coll = 0x80075750;
 eggs_coll = 0x80075810;
+
+game_state = 0x800757d8;
 gems_level_phys = 0x800756C8;
+
 gems_coll = 0x80075860;
+
 gem_level_totals = 0x8006f438;
 held_button = 0x80075c88;
 jump_charge_impulse = 0x80041e4c;

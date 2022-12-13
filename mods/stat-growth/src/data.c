@@ -20,8 +20,8 @@ unsigned short *sparx_gem_ranges[] = {
     &sparx_range_bm,         &sparx_range_tv,         &sparx_range_mb,
     &sparx_range_tt,         &sparx_range_met,
 
-    &sparx_range_dw,         &sparx_range_lc_ground,  &sparx_range_lc_spawn,
-    &sparx_range_dp,         &sparx_range_ht,         &sparx_range_jac,
+    &sparx_range_dw,         &sparx_range_dp,         &sparx_range_lc_ground,
+    &sparx_range_lc_spawn,   &sparx_range_ht,         &sparx_range_jac,
 
     &sparx_range_gg_ground,  &sparx_range_gg_spawn,   &sparx_range_gc,
     &sparx_range_th_ground,  &sparx_range_th_spawn,   &sparx_range_gna_ground,
@@ -51,6 +51,7 @@ void Assign_Sparx_Range(int lvl, unsigned short value) {
     break;
   case SUNNY_FLIGHT:
     break;
+
   case PEACE_KEEPERS:
     *sparx_gem_ranges[8] = value;
     *sparx_gem_ranges[9] = value;
@@ -72,6 +73,7 @@ void Assign_Sparx_Range(int lvl, unsigned short value) {
     break;
   case NIGHT_FLIGHT:
     break;
+
   case MAGIC_CRAFTERS:
     *sparx_gem_ranges[17] = value;
     break;
@@ -89,6 +91,7 @@ void Assign_Sparx_Range(int lvl, unsigned short value) {
     break;
   case CRYSTAL_FLIGHT:
     break;
+
   case BEAST_MAKERS:
     *sparx_gem_ranges[22] = value;
     break;
@@ -106,12 +109,14 @@ void Assign_Sparx_Range(int lvl, unsigned short value) {
     break;
   case WILD_FLIGHT:
     break;
+
   case DREAM_WEAVERS:
     *sparx_gem_ranges[27] = value;
     break;
   case DARK_PASSAGE:
     *sparx_gem_ranges[28] = value;
     break;
+
   case LOFTY_CASTLE:
     *sparx_gem_ranges[29] = value;
     *sparx_gem_ranges[30] = value;
