@@ -1,4 +1,4 @@
-# Welcome to [Spyro Stat Growth](https://github.com/AlDeezy/spyro-stat-growth)
+[Spyro Stat Growth](https://github.com/AlDeezy/spyro-stat-growth)
 
 ## Overview
 A mod for Spyro the Dragon 1998, using RedHot's amazing [psx-modding-toolchain](https://github.com/mateusfavarin/psx-modding-toolchain)
