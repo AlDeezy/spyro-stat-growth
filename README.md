@@ -1,4 +1,7 @@
-Mod for Spyro the Dragon 1998, using RedHot's amazing [psx-modding-toolchain](https://github.com/mateusfavarin/psx-modding-toolchain)
+# Welcome to [Spyro Stat Growth](https://github.com/AlDeezy/spyro-stat-growth)
+
+## Overview
+A mod for Spyro the Dragon 1998, using RedHot's amazing [psx-modding-toolchain](https://github.com/mateusfavarin/psx-modding-toolchain)
 
 Current progressive modifiers:
 + Jump Height (scales with GEMS)
@@ -17,11 +20,20 @@ Good luck!
 
 &nbsp;
 
-To compile, place your legally acquired spyro.bin into build/
+## Installation
+1. [Grab the latest xdelta release here](https://github.com/AlDeezy/spyro-stat-growth/releases)
 
-Then, open a terminal and run mods/stat-growth/MOD.BAT
+2. Using an xdelta patcher ([such as kotcrab's patcher](https://kotcrab.github.io/xdelta-wasm/)), using spyro.bin and the spyro_stat-growth.xdelta
 
-Compile, then Build Iso
+3. You will need a cue sheet to run your new stat-growth.bin file. You can either clone the original spyro.cue file and edit it in any text editor yourself, or use a tool [such as duckstation's cue maker](https://www.duckstation.org/cue-maker/)
 
-Alternatively, you can use the xdelta patch in the releases panel to the right ->
-You can apply these patches using online tools, such as [kotcrab's xdelta patcher](https://kotcrab.github.io/xdelta-wasm/)
+4. Put your stat-growth.bin and stat-growth.cue files into the same directory and launch like any other ps1 game in your emulator of choice!
+
+## Compiling
+1. Clone the repo into your `path/to/psx-modding-toolchain/games/` folder 
+
+2. Place your legally acquired `spyro.bin` into `build/`
+
+3. Open a terminal and navigate to `mods/stat-growth/` and run `MOD.BAT`
+
+4. `Compile`, then `Build Iso`. The output will be placed into `build/`
